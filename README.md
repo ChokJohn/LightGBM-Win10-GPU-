@@ -11,6 +11,17 @@ LightGBM, Light Gradient Boosting Machine
 [![Join Gitter at https://gitter.im/Microsoft/LightGBM](https://badges.gitter.im/Microsoft/LightGBM.svg)](https://gitter.im/Microsoft/LightGBM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Slack](https://lightgbm-slack-autojoin.herokuapp.com/badge.svg)](https://lightgbm-slack-autojoin.herokuapp.com)
 
+我在win10下使用VS2017按照官方的教程成功的编译了GPU的版本，中间失败了不少次，因此将编译后的版本上传GitHub给有需要的朋友们使用。安装的过程如下
+1. 将项目clone到本地
+2. 进入python-package目录下运行以下代码即可
+
+```python
+python setup.py install --gpu
+```
+
+
+
+---
 LightGBM is a gradient boosting framework that uses tree based learning algorithms. It is designed to be distributed and efficient with the following advantages:
 
 - Faster training speed and higher efficiency.
