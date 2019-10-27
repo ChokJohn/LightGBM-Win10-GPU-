@@ -1,0 +1,5 @@
+F:/LightGBM/build/CMakeFiles/lightgbm.dir
+F:/LightGBM/build/CMakeFiles/_lightgbm.dir
+F:/LightGBM/build/CMakeFiles/INSTALL.dir
+F:/LightGBM/build/CMakeFiles/ALL_BUILD.dir
+F:/LightGBM/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,87 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: F:/LightGBM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/IDE/VisualStudio/MSBuild/15.0/Bin/MSBuild.exe cmTC_ba805.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27034 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  CheckSymbolExists.c
+  cl /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba805.dir\Debug\\" /Fd"cmTC_ba805.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue F:\LightGBM\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+F:\LightGBM\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: “CL_VERSION_2_2”: 未声明的标识符 [F:\LightGBM\build\CMakeFiles\CMakeTmp\cmTC_ba805.vcxproj]
+
+
+File F:/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: F:/LightGBM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/IDE/VisualStudio/MSBuild/15.0/Bin/MSBuild.exe cmTC_e5d6d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27034 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  CheckSymbolExists.c
+  cl /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5d6d.dir\Debug\\" /Fd"cmTC_e5d6d.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue F:\LightGBM\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+F:\LightGBM\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: “CL_VERSION_2_1”: 未声明的标识符 [F:\LightGBM\build\CMakeFiles\CMakeTmp\cmTC_e5d6d.vcxproj]
+
+
+File F:/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: F:/LightGBM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/IDE/VisualStudio/MSBuild/15.0/Bin/MSBuild.exe cmTC_ee99e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27034 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  CheckSymbolExists.c
+  cl /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee99e.dir\Debug\\" /Fd"cmTC_ee99e.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue F:\LightGBM\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+F:\LightGBM\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: “CL_VERSION_2_0”: 未声明的标识符 [F:\LightGBM\build\CMakeFiles\CMakeTmp\cmTC_ee99e.vcxproj]
+
+
+File F:/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
